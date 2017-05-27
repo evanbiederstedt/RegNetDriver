@@ -1,8 +1,12 @@
 # RegNetDriver
-RegNetDriver is a computational approach to identify regulatory drivers of tumorigenesis using combined effects of coding and non-coding single nucleotide variants, structural variants (SVs) and DNA methylation changes in the DNase I hypersensitivity based regulatory network
-We integrated whole-genome sequencing (WGS), RNA-Seq and DNA methylation data from primary prostate tumor samples with functional genomics data from the ENCODE and Roadmap Epigenomics projects. The three step computational model involves: (a) construction of prostate regulatory network using DNase I hypersensitivity data, (b) identification of significantly mutated, rearranged and differentially methylated coding and non-coding regulatory regions in prostate cancer and, (c) interpretation of the effects of these alterations on prostate regulatory network. We have provided scripts to construct tissue-specific regulatory network.
+RegNetDriver is a computational approach to identify regulatory drivers of tumorigenesis using combined effects of coding and non-coding single nucleotide variants, structural variants (SVs) and DNA methylation changes in the DNase I hypersensitivity based regulatory network.
 
-(A) DHS_network: folder contains source codes for tissue-specific regulatory network. It used DHS data and ENCODE promoter and enhancer annotations for creating tissue-specific DHS-based regulatory network
+It integrates whole-genome sequencing (WGS), RNA-Seq and DNA methylation data from tumor samples with functional genomics data from the ENCODE and Roadmap Epigenomics projects to create tissue-specific regulatory and identify the effect of different genomic and epigenomic variations on differential gene expression.
+
+The three step computational model involves: (a) construction of tissue-specifi regulatory network using DNase I hypersensitivity data, (b) identification of significantly mutated, rearranged and differentially methylated coding and non-coding regulatory regions in tumor and, (c) interpretation of the effects of these alterations on tissue-specific regulatory network. We applied our computational model on genetic and epigenetic data from prostate tumor samples and identified regulatory drivers of prostate tumorigenesis.
+
+
+(A) RegNetDriver: folder contains source codes for tissue-specific regulatory network. It used DHS data and ENCODE promoter and enhancer annotations for creating tissue-specific DHS-based regulatory network
 
 (B) FSig-SNV (Functionally significant single nucleotide variant) folder contains source codes to find genes with significanlty mutated coding and non-coding (promoter and enhancer) regions . It analyzes the somatic mutations in both coding and non-coding regulatory regions to identify elements that show more recurrent (present in multiple samples) and more functional mutations than expected randomly. For functional annotation, the method uses FunSeq2 to annotate and calculate functional score for each variant. Output of FSig-SNV is a list of significantly mutated coding and non-coding elements that show higher than expected frequency of functional mutations across multiple tumor samples.
 
