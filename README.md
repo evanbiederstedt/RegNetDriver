@@ -10,8 +10,9 @@ The three step computational model involves: (a) construction of tissue-specifi 
 
 (B) FSig-SNV (Functionally significant single nucleotide variant) folder contains source codes to find genes with significanlty mutated coding and non-coding (promoter and enhancer) regions . It analyzes the somatic mutations in both coding and non-coding regulatory regions to identify elements that show more recurrent (present in multiple samples) and more functional mutations than expected randomly. For functional annotation, the method uses FunSeq2 to annotate and calculate functional score for each variant. Output of FSig-SNV is a list of significantly mutated coding and non-coding elements that show higher than expected frequency of functional mutations across multiple tumor samples.
 
-(C) FSig-SV (Functionally significant structural variants) folder contains source codes to find genes with significantly rearranged coding and non-coding (promoter and enhancer) regions. FSig-SV method identifies coding and non-coding elements significantly affected by deletion, insertion, duplication, inversion and translocation events. Output of the method is a list of coding and non-coding elements that are rearranged in more samples than expected randomly. 
---To identify differentially methylated promoters and enhancer using HM450K array data, we use ELMER package (https://www.bioconductor.org/packages/release/bioc/html/ELMER.html)
+(C) FSig-SV (Functionally significant structural variants) folder contains source codes to find genes with significantly rearranged coding and non-coding (promoter and enhancer) regions. FSig-SV method identifies coding and non-coding elements significantly affected by deletion, insertion, duplication, inversion and translocation events. Output of the method is a list of coding and non-coding elements that are rearranged in more samples than expected randomly.
+
+(D)To identify differentially methylated promoters and enhancer using HM450K array data, we use ELMER package (https://www.bioconductor.org/packages/release/bioc/html/ELMER.html)
 
 
 How to run RegNetDriver:
