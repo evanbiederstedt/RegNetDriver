@@ -80,3 +80,10 @@ Somatic Structural Variants ICGC SVs (https://dcc.icgc.org/projects/PRAD-CA), Ba
  
 For any questions, comments and suggestion please email ekk2003@med.cornell.edu or prd2007@med.cornell.edu
 Copyright © 2016 Ekta Khurana Lab, WCMC
+
+Attribution-NonCommercial 4.0 International
+
+License: CC BY-NC 4.0
+[![License: CC BY-NC 4.0](https://licensebuttons.net/l/by-nc/4.0/80x15.png)](http://creativecommons.org/licenses/by-nc/4.0/)
+
+
